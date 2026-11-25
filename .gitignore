@@ -1,0 +1,12 @@
+__pycache__/
+*.py[cod]
+*.sqlite3
+*.sqlite3-*
+server/users.json
+.env
+.venv/
+Library/
+Temp/
+Obj/
+Logs/
+UserSettings/

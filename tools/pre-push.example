@@ -1,0 +1,4 @@
+#!/bin/sh
+# Set UNITY_GIT_LOCK_URL, UNITY_GIT_LOCK_REPOSITORY and UNITY_GIT_LOCK_TOKEN
+# in the environment. Change this path to your local checkout of unity-git-lock.
+exec python3 /absolute/path/to/unity-git-lock/tools/git_lock.py pre-push "$@"

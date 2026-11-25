@@ -1,0 +1,16 @@
+{
+  "name": "com.minefarm.git-lock",
+  "version": "0.1.0",
+  "displayName": "Unity Git Lock",
+  "description": "Repository-wide collaborative file locks for ordinary Git files, with Unity Editor enforcement and branch/commit metadata.",
+  "unity": "2022.3",
+  "author": {
+    "name": "Minefarm"
+  },
+  "keywords": [
+    "git",
+    "version-control",
+    "locking",
+    "collaboration"
+  ]
+}

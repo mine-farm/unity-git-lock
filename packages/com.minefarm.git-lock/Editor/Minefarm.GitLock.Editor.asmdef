@@ -1,0 +1,8 @@
+{
+  "name": "Minefarm.GitLock.Editor",
+  "rootNamespace": "Minefarm.GitLock",
+  "includePlatforms": [
+    "Editor"
+  ],
+  "autoReferenced": true
+}

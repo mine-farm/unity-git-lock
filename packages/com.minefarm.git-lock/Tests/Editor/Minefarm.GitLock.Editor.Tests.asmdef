@@ -1,0 +1,14 @@
+{
+  "name": "Minefarm.GitLock.Editor.Tests",
+  "rootNamespace": "Minefarm.GitLock.Tests",
+  "references": [
+    "Minefarm.GitLock.Editor"
+  ],
+  "includePlatforms": [
+    "Editor"
+  ],
+  "optionalUnityReferences": [
+    "TestAssemblies"
+  ],
+  "autoReferenced": false
+}

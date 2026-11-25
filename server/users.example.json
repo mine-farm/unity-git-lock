@@ -1,0 +1,20 @@
+{
+  "users": [
+    {
+      "name": "alice",
+      "token": "REPLACE_WITH_A_UNIQUE_RANDOM_TOKEN",
+      "repositories": [
+        "github.com/mine-farm/mf"
+      ],
+      "admin": true
+    },
+    {
+      "name": "bob",
+      "token": "REPLACE_WITH_ANOTHER_RANDOM_TOKEN",
+      "repositories": [
+        "github.com/mine-farm/mf"
+      ],
+      "admin": false
+    }
+  ]
+}
