@@ -207,7 +207,7 @@ def load_users(path):
         name = text_field(u["name"], "user name", 128)
         token = u["token"]
         if (not isinstance(token, str) or not re.fullmatch(r"[A-Za-z0-9._~-]{32,256}", token)
-                or name in names or token in tokens):
+                or token.startswith("REPLACE_WITH_") or name in names or token in tokens):
             raise ValueError("Unique user names and high-entropy tokens (32+ characters) required")
         names.add(name)
         tokens.add(token)

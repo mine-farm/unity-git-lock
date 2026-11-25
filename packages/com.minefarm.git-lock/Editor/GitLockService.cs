@@ -222,6 +222,7 @@ namespace Minefarm.GitLock
         private static void Notify()
         {
             EditorApplication.RepaintProjectWindow();
+            EditorApplication.RepaintHierarchyWindow();
             SceneView.RepaintAll();
             UnityEditorInternal.InternalEditorUtility.RepaintAllViews();
             Changed?.Invoke();

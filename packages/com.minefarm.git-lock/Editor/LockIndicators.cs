@@ -81,6 +81,8 @@ namespace Minefarm.GitLock
                     continue;
                 }
                 var mine = GitLockService.IsMine(record);
+                if (mine && GitLockService.Blocked(asset, out var staleMessage))
+                    EditorGUILayout.HelpBox(staleMessage, MessageType.Warning);
                 EditorGUILayout.HelpBox((mine ? "Git Lock: owned by you" : "Git Lock: editing / saving prohibited") +
                     "\nOwner: " + record.owner + "\nBranch: " + record.branch +
                     "\nCommit: " + record.ShortCommit + "\nLocked at: " + record.lockedAt +
